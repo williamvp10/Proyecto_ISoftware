@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form method= "POST" action="HelloCrunchify.java">
+        <form method= "POST" action="CrunchifyServlet">
             <h1>Nueva Obra</h1>
             <table>
                 <tr>
