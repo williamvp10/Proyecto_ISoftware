@@ -15,7 +15,7 @@
     
     <servlet>
         <servlet-name>Hello</servlet-name>
-        <servlet-class>com.crunchify.jsp.servlet.HelloCrunchify</servlet-class>
+        <servlet-class>Controlador.HelloCrunchify</servlet-class>
     </servlet>
     
     <servlet>
