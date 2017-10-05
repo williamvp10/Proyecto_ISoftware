@@ -7,31 +7,42 @@ package MOdelo;
 
 /**
  *
- * @author Labing
+ * @author willy
  */
 public class Usuario {
-    private String user;
-    private String nombre;
+    private String usuario;
+    private String contrasena;
+    private String tipoUsuario;
 
-    public Usuario(String user, String nombre) {
-        this.user = user;
-        this.nombre = nombre;
+    public Usuario(String usuario, String contrasena, String tipoUsuario) {
+        this.usuario = usuario;
+        this.contrasena = contrasena;
+        this.tipoUsuario = tipoUsuario;
     }
 
-    public String getUser() {
-        return user;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getContrasena() {
+        return contrasena;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
     }
+
+    public String getTipoUsuario() {
+        return tipoUsuario;
+    }
+
+    public void setTipoUsuario(String tipoUsuario) {
+        this.tipoUsuario = tipoUsuario;
+    }
+    
     
 }

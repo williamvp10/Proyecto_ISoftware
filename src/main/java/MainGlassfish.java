@@ -1,4 +1,3 @@
-import BD.CreateDataBase;
 import java.io.File;
 import org.glassfish.embeddable.CommandResult;
 import org.glassfish.embeddable.CommandRunner;
@@ -32,11 +31,7 @@ public class MainGlassfish {
         CommandResult result  = runner.run("set-log-level", "javax.enterprise.system.container.web=INFO:javax.enterprise.system.container.ejb=FINEST");
         System.out.println("------output of set log level: " + result.getOutput());
 	Deployer deployer = glassfish.getDeployer();
-
-      
         
-        //Invocando el Script de Creacion de la base de datos.
-      
 	// Create a scattered web application.
 	ScatteredArchive archive = new ScatteredArchive("myApp",
 	ScatteredArchive.Type.WAR, new File(webappDirLocation));
